@@ -1,0 +1,42 @@
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .back-link {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    font-size: 25px;
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+  }
+
+  .back-link:hover {
+    color: white;
+    background: black;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .user-info-container {
+    display: flex;
+    flex-direction: row;
+    .avatar-image {
+      width: 400px;
+      height: 400px;
+    }
+    .user-list-info {
+      list-style-type: none;
+      display: flex;
+      //justify-content: center;
+      flex-direction: column;
+      align-items: start;
+      font-size: 30px;
+    }
+  }
+}
