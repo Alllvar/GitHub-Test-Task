@@ -2,7 +2,6 @@ import React from 'react';
 import './index.scss'
 
 export const renderRepos = (data) => data.items.map(item => {
-    console.log(data)
     return (
         <li className="list-element" key={item.id} >
             <a className="list-element-link" href={item.clone_url}>

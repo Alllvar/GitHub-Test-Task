@@ -15,8 +15,6 @@ export default function UsersList () {
         return <div className="loading">Failed to load data</div>
     }
 
-    console.log(data, 'data')
-
     return (
         <div className="users-list-container">
             <h1>GitHub Searcher</h1>
